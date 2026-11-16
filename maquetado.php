@@ -29,7 +29,7 @@
             "uno uno"
             "dos dos" 
             gap: 10px;
-        } 
+        }
     </style>
 </head>
 <body>
