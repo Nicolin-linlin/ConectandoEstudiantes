@@ -82,8 +82,9 @@
             grid-template-areas: 
             "menu menu"
             "uno uno"
-            "dos dos" ;
-        } 
+            "dos dos" 
+            gap: 10px;
+        }
     </style>
 </head>
 <body>
