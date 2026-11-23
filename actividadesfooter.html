@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#EFE8DA;
+        }
+        h1{
+            color:#45291F;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:65px;
+            padding-left:95px;
+        }
+        #conectando{
+            color:#76635A;
+            font-family:Arial, Helvetica, sans-serif;
+            letter-spacing: 3px;
+            font-size:15px;
+            margin-top:50px;
+            padding-left:95px;
+        }
+        #descripcion{
+            color:#76635A;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:20px;
+            padding-left:95px;
+        }
+        .subtitulos{
+            color:#45291F;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:30px;
+        }
+        p{
+            color:#76635A;
+            font-family:Arial, Helvetica, sans-serif;
+            letter-spacing: 1px;
+            font-size:20px;
+            line-height:30px;
+        }
+        #cajaprincipal{
+            display:flex;
+            gap:30px;
+            justify-content:center;
+            margin-top:100px;
+            margin-bottom:150px;
+            padding-left:40px;
+            padding-right:40px;
+        }
+        .tarjetas{
+            width:400px;
+            transition:all 0.2s;
+        }
+        .tarjetas:hover{
+            transform:translateY(-15px);
+            box-shadow: 0px 20px 30px #45291F;
+            border-radius:25px 25px 25px 25px;
+        }
+        .imagenes{
+            width:400px;
+            height:350px;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+            border-radius:25px 25px 0px 0px;
+       
+        }
+        #imagen1{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSLja3JSX-f2fMwbdhxWp2KizrAPZyxaglibwVA0OUYtWIzpE-LSa5UBY&s=10);
+        }
+        #imagen2{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMgcJabN8m0mPIgzRMnOKS1xLqOYkkZkYBdVkXYmkYMNQ5sG6cK-a3GBt&s=10);
+        }
+        #imagen3{
+            background-image:url(https://img.magnific.com/foto-gratis/estudiantes-que-conocen-respuesta-correcta_329181-14271.jpg?semt=ais_hybrid&w=740&q=80);
+        }
+        #imagen4{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgdDf4cGh4r6K78GUQNSOSIyQD-Bg8oZt_vUWAaYJxw&s=10);
+        }
+        .actividades{
+            background-color:#FAF7ED;
+            padding:20px;
+            height:230px;
+            border-radius: 0px 0px 25px 25px;
+            
+         
+        }  
+    </style>
+</head>
+<body>
+    <section>
+        <h2 id="conectando">CONECTANDO ESTUDIANTES</h2>
+        <h1>NUESTRAS ACTIVIDADES</h1>
+        <p id="descripcion">La inclusión comienza con una sonrisa y crece con el respeto.</p>
+        <div id="cajaprincipal">
+        <article class="tarjetas">
+            <div id="imagen1" class="imagenes"></div>
+            <div class="actividades">
+               <h2 class="subtitulos">Charlas que acercan</h2>
+               <p>Espacios educativos e interactivos <br>
+                 para hablar de respeto, empatía e <br>
+                 inclusión.</p>
+            </div>
+        </article>
+        <article class="tarjetas">
+            <div id="imagen2" class="imagenes"></div>
+            <div class="actividades">
+               <h2 class="subtitulos">Jugar para conectar</h2>
+               <p>Juegos grupales para conocer mejor<br> 
+                a los compañeros y construir lazos <br>
+                de amistad.</p> 
+            </div>
+        </article>
+        <article class="tarjetas">
+            <div id="imagen3" class="imagenes"></div>
+            <div class="actividades">
+                <h2 class="subtitulos">Aprender con empatía</h2>
+                <p>Sesiones desde kínder hasta sexto <br>
+                de primaria para valorar nuestras <br>
+                diferencias.</p>
+            </div>
+        </article>
+        <article class="tarjetas">
+            <div id="imagen4" class="imagenes"></div>
+            <div class="actividades">
+                <h2 class="subtitulos">Tu voz cuenta</h2>
+                <p>Momentos de diálogo para compartir <br>
+                emociones e ideas sobre cómo <br>
+                eliminar la exclusión.</p>
+            </div>
+        </article>
+        </div>
+    </section>
+</body>
+</html>
