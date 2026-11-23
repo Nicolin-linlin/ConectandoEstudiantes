@@ -23,31 +23,37 @@ grid-area: section;
  font-size: 10px;
 color: #78675b;
 font-family: Arial, Helvetica, sans-serif;
-margin-left: 20px;
+margin-left: 40px;
     }
 #titulo{
 font-size: 80px;
  color: #4a2c22;
 font-family: Arial, Helvetica, sans-serif;
-margin-left: 20px;
+margin-left: 40px;
 }
 #informacion{
-font-size: 15px;
+font-size: 25px;
  color: #78675b;
 font-family: Arial, Helvetica, sans-serif;
-margin-left: 20px;
+margin-left: 40px;
 
 }
 img {
   width: 500px;
   height: 400px;
   border-radius: 10px;
+ 
+  position: relative;
+  left: 1100px;
+  bottom: 370px;
 
 }
-a{
+.cabecera{
  color:#4a2c22;   
- margin-left: 250px;
+ margin-left: 300px;
      text-decoration: none; 
+     position: relative;
+     top: 27px;
 }
 #participa {
   background-color: #4a2c22;
@@ -55,11 +61,15 @@ a{
   width: 130px; 
   border-radius: 30px;
   float: right; 
+  position: relative;
+  top: 20px;
 }
-informate{
-  
- color: #78675b;  
+
+.cabecera2{
+          text-decoration: none;
+ color:#ECE3D1 ;  
 }
+
 
 body{
  display:grid;
@@ -80,11 +90,11 @@ body{
 
 </style>
 <body>
-    <nav><a href="1">nosotras</a>
-       <a href="1">mision y vision</a>
-      <a href="1">informate</a>
-    <a href="1">Actividades</a> 
-    <div id="participa"><a href="informate"></a></div>
+    <nav><b><a href="1" class="cabecera">Nosotras</a>
+       <a href="1" class="cabecera">Mision y vision</a>
+      <a href="1" class="cabecera">Informate</a>
+    <a href="1" class="cabecera">Actividades</a></b> 
+    <div id="participa"><center><a href="informate" class="cabecera2"> Quiero <br>Participar</a></center></div>
     
 </nav>
      
@@ -93,8 +103,8 @@ body{
     <p id="titulo"><b>La inclusión <br>se construye juntos.</b></p>
 
     <p id="informacion">Acompañamos a estudiantes de nivel inicial y primaria de la <br>Unidad Educativa Pedro Poveda para fomentar el respeto, la igualdad <br> la integración. Porque nadie debe sentirse excluido.</p>
-    <img src="https://paraguay.un.org/sites/default/files/styles/hero_header_2xl_1x/public/2024-05/Unicef.%20Historia%20de%20vida%206.jpeg?itok=N_XTB5xV" alt="">
-
+    <article id="imagen"><img src="https://paraguay.un.org/sites/default/files/styles/hero_header_2xl_1x/public/2024-05/Unicef.%20Historia%20de%20vida%206.jpeg?itok=N_XTB5xV" alt=""></article>
+     <p id="ubicacion">COCHABAMBA/BOLIVIA-DE KINDER A SEXTO DE PRIMARIA</p>
 </section>
 </body>
 </html>
