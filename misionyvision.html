@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+  nav{
+
+ background-color: #FAF7ED;
+
+ grid-area: nav;
+
+;
+    
+}
+
+section{
+background-color:#ECE3D1 ;
+grid-area: section;
+
+}
+#subtitulo{
+ font-size: 10px;
+color: #78675b;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 20px;
+    }
+#titulo{
+font-size: 75px;
+ color: #4a2c22;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 20px;
+}
+
+#informacion {
+  font-size: 32px;
+  color: #78675b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  
+}
+
+
+
+
+.link{
+ color:#4a2c22;   
+ margin-left: 200px;
+     text-decoration: none; 
+     position: relative;
+     top: 30px;
+}
+#caja{
+  background-color: #4a2c22;
+  height: 42px; 
+  width: 130px; 
+  border-radius: 30px;
+  float: right; 
+  margin-top: 25px;
+  margin-right: 15px;
+ 
+  
+}
+.boton{
+ color: #ECE3D1;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+  
+
+
+body{
+ display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 90px 470px 550px 550px;
+  grid-template-areas: 
+    "nav nav"
+    "section section"
+    "mision mision"
+    "vision vision"
+}
+
+
+#mision{
+background-color: #FAF7ED;
+
+ grid-area: mision;
+}
+#titulomision{
+font-size: 70px;
+ color: #4a2c22;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 20px;
+ 
+}
+#vision{
+background-color:#ECE3D1;
+
+ grid-area: vision;
+}
+#titulovision{
+font-size: 70px;
+ color: #4a2c22;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 800px;
+}
+#textomision{
+     font-size: 32px;
+  color: #78675b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px; 
+}
+   #img1{
+  width: 500px;
+  height: 400px;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+bottom: 250px;
+right: 40px;
+}
+#textovision{
+     font-size: 32px;
+  color: #78675b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 800px; 
+}
+   #img2{
+  width: 500px;
+  height: 400px;
+  border-radius: 30px;
+  position: relative;
+  bottom:250px;
+  left: 40px;
+}
+#informacion{
+font-size: 20px;
+color: #78675b;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 20px;
+margin-top: 100px;
+}
+
+</style>
+<body>
+    <nav><b><a href="1" class="link">Nosotras</a></b>
+       <b><a href="1" class="link">Mision y vision</a></b>
+      <b><a href="1" class="link">Informate</a></b>
+    <b><a href="1" class="link">Actividades</a></b> 
+    <div id="caja"><center><a href="#" class="boton">Quiero <br>participar ↗</a></center></div>
+    
+</nav>
+     
+    <section>
+    <p id="subtitulo">CONECTANDO ESTUDIANTES/MISION Y VISION</p>
+    <p id="titulo"><b>Un lugar donde todas las voces <br>cuentan.</b></p>
+    <p id="informacion">La inclusión comienza con una sonrisa y crece con el respeto.</p>
+    
+</section>
+ 
+<section id="mision">
+ <h1 id="titulomision">Mision</h1>
+ <p id="textomision">Promovemos la inclusión escolar en la Unidad Educativa Pedro<br> Poveda mediante charlas, juegos y espacios de diálogo que<br> fortalecen el respeto, la igualdad y la integración.</p>
+<img  id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwbHtjmwTNfgIfFkqpkkSnrYaInb8lnEIQhUtcQnRgDDWONcDoXaOs3Wg&s=10" alt="">
+
+
+</section>
+<section id="vision">
+<h1 id="titulovision">Vision</h1>
+<p id="textovision">Aspiramos a una comunidad escolar donde cada estudiante se<br> sienta aceptado, respetado y parte del grupo; donde <br>las diferencias sean una oportunidad para aprender y crecer juntos.</p>
+<img  id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2WGa9Vzbj8Q6_dntiG4QMdT2-4kTJ6uoRhZhnShSdicRy9YKDr2fdzcNT&s=10" alt="">
+
+</section>
+</body>
+</html>
