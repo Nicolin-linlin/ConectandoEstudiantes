@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display:grid;
+        grid-template-rows: 130px 850px 1000px 400px;
+        grid-template-columns: 100%;
+        grid-template-areas:
+        "nav"
+        "section"
+        "sectionsami"
+        "footer"  
+    }
+nav{
+
+ background-color: #FAF7ED;
+ grid-area: nav;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+    
+}
+#logo{
+    color:#45291F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    margin-left:80px;
+    margin-bottom:5px;
+}
+#logo2{
+    color:#45291F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing:2px;
+     margin-left:80px;
+    margin-top:0px;
+}
+#enlaces{
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    gap:100px;
+}
+.link{
+ color:#45291F;  
+
+     text-decoration: none; 
+     position: relative;
+     padding-top:5px;
+}
+#caja{
+  background-color: #4a2c22;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 42px; 
+  width: 130px; 
+  border-radius: 30px;
+  display:flex;
+ align-items:center;
+ justify-content:center;
+ margin-right: 80px;
+ 
+  
+}
+section{
+background-color:#ECE3D1 ;
+
+grid-area: section;
+grid-area:section;
+
+}
+#subtitulo{
+ font-size: 15px;
+color: #78675b;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 50px;
+  margin-left:80px;
+    }
+#titulo{
+font-size: 75px;
+ color: #4a2c22;
+font-family: Arial, Helvetica, sans-serif;
+  margin-left:80px;
+}
+
+#informacion {
+  font-size: 32px;
+  color: #78675b;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 80px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  
+}
+
+
+img {
+  width: 550px;
+  height: 450px;
+  border-radius: 80px;
+  float: right;
+  margin-right: 100px;
+  position: relative;
+  bottom: 420px;
+  transition:all 0.2s;
+}
+img:hover{
+      transform:translateY(-15px);
+            box-shadow: 0px 20px 30px #45291F;
+            border-radius:25px 25px 25px 25px;
+}
+
+.boton{
+ color: #ECE3D1;
+  font-size: 15px;
+  text-decoration: none;
+  
+}
+  
+
+
+body{
+background-color: #ECE3D1; 
+margin:0px;                                                
+}
+
+ #sectionsami{
+            background-color:#EFE8DA;
+            grid-area:sectionsami;
+        }
+        h1{
+            color:#45291F;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:65px;
+            margin-left: 80px;
+        }
+        #conectando{
+            color:#76635A;
+            font-family:Arial, Helvetica, sans-serif;
+            letter-spacing: 3px;
+            font-size:15px;
+            padding-top:50px;
+            padding-left: 80px;
+        }
+        #descripcion{
+            color:#76635A;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:20px;
+            padding-left: 70px;
+        }
+        .subtitulos{
+            color:#45291F;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size:35px;
+            margin-top:5px;
+            margin-left:10px;
+        }
+        .parrafosami{
+            color:#76635A;
+            font-family:Arial, Helvetica, sans-serif;
+            line-height: 25px;
+            font-size:20px;
+            padding-bottom:20px;
+            margin-left:10px;
+        }
+        #cajaprincipal{
+            display:flex;
+            gap:40px;
+            justify-content:center;
+            margin-top:50px;
+            margin-bottom:150px;
+            padding-left:10px;
+
+        }
+        .tarjetas{
+            width:380px;
+            transition:all 0.2s;
+        }
+        .tarjetas:hover{
+            transform:translateY(-15px);
+            box-shadow: 0px 20px 30px #45291F;
+            border-radius:25px 25px 25px 25px;
+        }
+        .imagenes{
+            width:380px;
+            height:300px;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+            border-radius:25px 25px 0px 0px;
+       
+        }
+        #imagen1{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSLja3JSX-f2fMwbdhxWp2KizrAPZyxaglibwVA0OUYtWIzpE-LSa5UBY&s=10);
+        }
+        #imagen2{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMgcJabN8m0mPIgzRMnOKS1xLqOYkkZkYBdVkXYmkYMNQ5sG6cK-a3GBt&s=10);
+        }
+        #imagen3{
+            background-image:url(https://img.magnific.com/foto-gratis/estudiantes-que-conocen-respuesta-correcta_329181-14271.jpg?semt=ais_hybrid&w=740&q=80);
+        }
+        #imagen4{
+            background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQgdDf4cGh4r6K78GUQNSOSIyQD-Bg8oZt_vUWAaYJxw&s=10);
+        }
+        .actividades{
+            background-color:#FAF7ED;
+            padding:20px;
+            height:200px;
+            border-radius: 0px 0px 25px 25px;
+            
+         
+        }  
+        footer{
+            background-color: #45291F;
+            grid-area:footer;
+        }
+         #footerprincipal{
+            display:flex;
+            justify-content:space-between;
+         }   
+        #titulofooter{
+            color:#FAF7ED;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:40px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left:5px ;
+            padding-top:30px ;
+            
+        }
+        #conectandoestudiantes{
+            color:#D6B8AF;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:20px;
+            padding-left:85px ;
+        }
+        #tituloderecha{
+            color:#D6B8AF;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-right:520px;
+            padding-top:50px;
+        }
+        #ubicacion{
+            color:#FAF7ED;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:20px;
+        }
+        hr{
+            border: none;
+            border-top: 1px solid #76635A;
+            margin-top:40px;
+            margin-bottom:20px;
+            margin-left:85px;
+            margin-right:85px;
+        }
+        #footersecundario{
+            display:flex;
+            justify-content:space-between;
+        }
+        #gmail{
+            color:#FAF7ED;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:20px;
+            padding-left: 85px;
+            padding-top:5px;
+        }
+        #reflexion{
+            color:#FAF7ED;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size:20px;
+            padding-right:420px;
+            padding-top:5px;
+        }
+
+
+
+</style>
+<body>
+    <nav>
+        <div >
+        <p id="logo"  > <b>conectando</b> </p>
+        <p id="logo2">ESTUDIANTES</p>
+        </div>
+        <div id="enlaces">
+        <b><a href="1" class="link">Nosotras</a></b>
+       <b><a href="1" class="link">Mision y vision</a></b>
+      <b><a href="1" class="link">Informate</a></b>
+    <b><a href="1" class="link">Actividades</a></b> 
+    </div>
+    <div id="caja"><center><a href="#" class="boton">  <b>Quiero participar ↗</b> </a></center></div>
+    
+</nav>
+     
+    <section>
+    <p id="subtitulo">CONECTANDO ESTUDIANTES / QUÉ HACEMOS</p>
+    <p id="titulo"><b>La inclusión <br>se construye juntos.</b></p>
+
+    <p id="informacion">Acompañamos a estudiantes de nivel inicial y primaria de la Unidad<br> Educativa Pedro Poveda para fomentar el respeto, la igualdad  y la <br> la integración. Porque nadie debe sentirse excluido.</p>
+    <img src="https://paraguay.un.org/sites/default/files/styles/hero_header_2xl_1x/public/2024-05/Unicef.%20Historia%20de%20vida%206.jpeg?itok=N_XTB5xV" alt="">
+
+</section>
+
+<section id="sectionsami">
+        <h2 id="conectando">CONECTANDO ESTUDIANTES</h2>
+        <h1>NUESTRAS ACTIVIDADES</h1>
+        <p id="descripcion" class="parrafosami">La inclusión comienza con una sonrisa y crece con el respeto.</p>
+        <div id="cajaprincipal">
+        <article class="tarjetas">
+            <div id="imagen1" class="imagenes"></div>
+            <div class="actividades">
+               <h2 class="subtitulos">Charlas que acercan</h2>
+               <p class="parrafosami">Espacios educativos e interactivos<br>
+                 para hablar de respeto, empatía e <br>
+                 inclusión.</p>
+            </div>
+        </article>
+        <article class="tarjetas">
+            <div id="imagen2" class="imagenes"></div>
+            <div class="actividades">
+               <h2 class="subtitulos">Jugar para conectar</h2>
+               <p class="parrafosami">Juegos grupales para conocer mejor<br> 
+                a los compañeros y construir lazos <br>
+                de amistad.</p> 
+            </div>
+        </article>
+        <article class="tarjetas">
+            <div id="imagen3" class="imagenes"></div>
+            <div class="actividades">
+                <h2 class="subtitulos">Aprender con empatía</h2>
+                <p class="parrafosami">Sesiones desde kínder hasta sexto <br>
+                de primaria para valorar nuestras <br>
+                diferencias.</p>
+            </div>
+        </article>
+        <article class="tarjetas">
+            <div id="imagen4" class="imagenes"></div>
+            <div class="actividades">
+                <h2 class="subtitulos">Tu voz cuenta</h2>
+                <p class="parrafosami">Momentos de diálogo para compartir <br>
+                emociones e ideas sobre cómo <br>
+                eliminar la exclusión.</p>
+            </div>
+        </article>
+        </div>
+    </section>
+    <footer>
+          <div id="footerprincipal">
+
+            <article>
+        <h1 id="titulofooter">Que cada estudiante <br>
+            se sienta parte.</h1>
+        <p id="conectandoestudiantes">Conectando Estudiantes · Sin exclusión</p>
+            </article>
+
+            <article>
+            <p id="tituloderecha">DÓNDE ENCONTRARNOS </p> 
+
+            <p id="ubicacion">Unidad Educativa Pedro Poveda <br>
+             Plazuela Tarija, Av. América <br>
+             Cochabamba, Bolivia</p>
+           </article>
+
+           </div>
+
+           <hr>
+
+           <div id="footersecundario">
+            <p id="gmail">@conectandoestudiantes_</p>
+            <p id="reflexion">Respeto. Igualdad. Integración.</p>
+           </div>
+        </footer>
+        
+</body>
+</html>
